@@ -1,0 +1,79 @@
+{"kind": "otp", "text": "Your OTP is 482913. Do not share it.", "sensitive": ["482913"], "decoy": false, "id": "P001"}
+{"kind": "otp", "text": "OTP: 7391", "sensitive": ["7391"], "decoy": false, "id": "P002"}
+{"kind": "otp", "text": "Use verification code 558201 to log in", "sensitive": ["558201"], "decoy": false, "id": "P003"}
+{"kind": "otp", "text": "482913 is your OTP for the transaction", "sensitive": ["482913"], "decoy": false, "id": "P004"}
+{"kind": "otp", "text": "One-time password 90817265 valid for 5 minutes", "sensitive": ["90817265"], "decoy": false, "id": "P005"}
+{"kind": "otp", "text": "Aapka OTP 665412 hai, kisi se share na karein", "sensitive": ["665412"], "decoy": false, "id": "P006"}
+{"kind": "otp", "text": "आपका OTP 301982 है", "sensitive": ["301982"], "decoy": false, "id": "P007"}
+{"kind": "otp", "text": "Your authentication code is 224466", "sensitive": ["224466"], "decoy": false, "id": "P008"}
+{"kind": "otp", "text": "security code: 8821", "sensitive": ["8821"], "decoy": false, "id": "P009"}
+{"kind": "otp", "text": "login code 119203 expires soon", "sensitive": ["119203"], "decoy": false, "id": "P010"}
+{"kind": "otp", "text": "OTP for payment of Rs 500 is 774411", "sensitive": ["774411"], "decoy": false, "id": "P011"}
+{"kind": "otp", "text": "The otp I received was 3344 but it failed", "sensitive": ["3344"], "decoy": false, "id": "P012"}
+{"kind": "card", "text": "My card number is 4111 1111 1111 1111", "sensitive": ["4111 1111 1111 1111"], "decoy": false, "id": "P013"}
+{"kind": "card", "text": "pay with 5500-0000-0000-0004", "sensitive": ["5500-0000-0000-0004"], "decoy": false, "id": "P014"}
+{"kind": "card", "text": "card 378282246310005 expiry 12/28", "sensitive": ["378282246310005"], "decoy": false, "id": "P015"}
+{"kind": "card", "text": "4012888888881881 is the visa", "sensitive": ["4012888888881881"], "decoy": false, "id": "P016"}
+{"kind": "card", "text": "Use this debit card: 6011111111111117", "sensitive": ["6011111111111117"], "decoy": false, "id": "P017"}
+{"kind": "card", "text": "card no 3530 1113 3330 0000", "sensitive": ["3530 1113 3330 0000"], "decoy": false, "id": "P018"}
+{"kind": "cvv", "text": "cvv 123 and expiry 09/27", "sensitive": ["123"], "decoy": false, "id": "P019"}
+{"kind": "cvv", "text": "CVV: 4821", "sensitive": ["4821"], "decoy": false, "id": "P020"}
+{"kind": "pin", "text": "My ATM PIN is 4821", "sensitive": ["4821"], "decoy": false, "id": "P021"}
+{"kind": "pin", "text": "UPI pin 112233 do not tell anyone", "sensitive": ["112233"], "decoy": false, "id": "P022"}
+{"kind": "aadhaar", "text": "Aadhaar 2345 6789 0123", "sensitive": ["2345 6789 0123"], "decoy": false, "id": "P023"}
+{"kind": "aadhaar", "text": "my aadhaar number 234567890123", "sensitive": ["234567890123"], "decoy": false, "id": "P024"}
+{"kind": "aadhaar", "text": "आधार 345678901234", "sensitive": ["345678901234"], "decoy": false, "id": "P025"}
+{"kind": "pan", "text": "PAN is ABCDE1234F", "sensitive": ["ABCDE1234F"], "decoy": false, "id": "P026"}
+{"kind": "pan", "text": "pan card FGHIJ5678K attached", "sensitive": ["FGHIJ5678K"], "decoy": false, "id": "P027"}
+{"kind": "upi", "text": "send to rahul.sharma@oksbi", "sensitive": ["rahul.sharma@oksbi"], "decoy": false, "id": "P028"}
+{"kind": "upi", "text": "my upi priya123@ybl", "sensitive": ["priya123@ybl"], "decoy": false, "id": "P029"}
+{"kind": "upi", "text": "pay anil@paytm now", "sensitive": ["anil@paytm"], "decoy": false, "id": "P030"}
+{"kind": "bank_account", "text": "Account number 123456789012", "sensitive": ["123456789012"], "decoy": false, "id": "P031"}
+{"kind": "bank_account", "text": "a/c no. 50100234567891", "sensitive": ["50100234567891"], "decoy": false, "id": "P032"}
+{"kind": "bank_account", "text": "acc no 00112233445", "sensitive": ["00112233445"], "decoy": false, "id": "P033"}
+{"kind": "ifsc", "text": "IFSC HDFC0001234", "sensitive": ["HDFC0001234"], "decoy": false, "id": "P034"}
+{"kind": "ifsc", "text": "ifsc code SBIN0004567 branch Pune", "sensitive": ["SBIN0004567"], "decoy": false, "id": "P035"}
+{"kind": "api_key", "text": "my key is sk-abc123def456ghi789jkl012", "sensitive": ["sk-abc123def456ghi789jkl012"], "decoy": false, "id": "P036"}
+{"kind": "api_key", "text": "AWS key AKIAIOSFODNN7EXAMPLE", "sensitive": ["AKIAIOSFODNN7EXAMPLE"], "decoy": false, "id": "P037"}
+{"kind": "api_key", "text": "token ghp_abcdefghijklmnopqrstuvwxyz0123456789", "sensitive": ["ghp_abcdefghijklmnopqrstuvwxyz0123456789"], "decoy": false, "id": "P038"}
+{"kind": "api_key", "text": "slack xoxb-1234567890-abcdefghij", "sensitive": ["xoxb-1234567890-abcdefghij"], "decoy": false, "id": "P039"}
+{"kind": "api_key", "text": "AIzaSyA1234567890abcdefghijklmnopqrstuv is the maps key", "sensitive": ["AIzaSyA1234567890abcdefghijklmnopqrstuv"], "decoy": false, "id": "P040"}
+{"kind": "jwt", "text": "auth eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTYifQ.abc123def456ghi", "sensitive": ["eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTYifQ.abc123def456ghi"], "decoy": false, "id": "P041"}
+{"kind": "token", "text": "Authorization: Bearer 9f8e7d6c5b4a39281716ab", "sensitive": ["9f8e7d6c5b4a39281716ab"], "decoy": false, "id": "P042"}
+{"kind": "secret", "text": "API_KEY=supersecretvalue99", "sensitive": ["supersecretvalue99"], "decoy": false, "id": "P043"}
+{"kind": "secret", "text": "token: Zx81QpLm20Vb", "sensitive": ["Zx81QpLm20Vb"], "decoy": false, "id": "P044"}
+{"kind": "password", "text": "my password is Rahul@123", "sensitive": ["Rahul@123"], "decoy": false, "id": "P045"}
+{"kind": "password", "text": "password: Tr0ub4dor&3", "sensitive": ["Tr0ub4dor&3"], "decoy": false, "id": "P046"}
+{"kind": "password", "text": "mera password hai Sunshine#77", "sensitive": ["Sunshine#77"], "decoy": false, "id": "P047"}
+{"kind": "password", "text": "पासवर्ड है Hello@2026", "sensitive": ["Hello@2026"], "decoy": false, "id": "P048"}
+{"kind": "password", "text": "wifi pwd = Home-Net-5588", "sensitive": ["Home-Net-5588"], "decoy": false, "id": "P049"}
+{"kind": "decoy", "text": "Order #48213 has shipped.", "sensitive": [], "decoy": true, "id": "P050"}
+{"kind": "decoy", "text": "Flight AI 202 departs at 10:30.", "sensitive": [], "decoy": true, "id": "P051"}
+{"kind": "decoy", "text": "The meeting is on 15/11/2026 in room 304.", "sensitive": [], "decoy": true, "id": "P052"}
+{"kind": "decoy", "text": "My PIN code is 411057 (Pune).", "sensitive": [], "decoy": true, "id": "P053"}
+{"kind": "decoy", "text": "Total is Rs. 4500 including tax.", "sensitive": [], "decoy": true, "id": "P054"}
+{"kind": "decoy", "text": "Call me on 98765 43210.", "sensitive": [], "decoy": true, "id": "P055"}
+{"kind": "decoy", "text": "Zoom meeting ID 123 456 7890", "sensitive": [], "decoy": true, "id": "P056"}
+{"kind": "decoy", "text": "Invoice 20261115 is pending.", "sensitive": [], "decoy": true, "id": "P057"}
+{"kind": "decoy", "text": "See page 1234 of the report.", "sensitive": [], "decoy": true, "id": "P058"}
+{"kind": "decoy", "text": "Version 1.2.3 released in 2026.", "sensitive": [], "decoy": true, "id": "P059"}
+{"kind": "decoy", "text": "Don't share your OTP with anyone.", "sensitive": [], "decoy": true, "id": "P060"}
+{"kind": "decoy", "text": "I did not get the OTP yet.", "sensitive": [], "decoy": true, "id": "P061"}
+{"kind": "decoy", "text": "The code review is at 3 PM.", "sensitive": [], "decoy": true, "id": "P062"}
+{"kind": "decoy", "text": "Postal code 400001 Mumbai.", "sensitive": [], "decoy": true, "id": "P063"}
+{"kind": "decoy", "text": "Reminder: call Rahul tomorrow at 10 AM.", "sensitive": [], "decoy": true, "id": "P064"}
+{"kind": "decoy", "text": "Thursday works for me.", "sensitive": [], "decoy": true, "id": "P065"}
+{"kind": "decoy", "text": "Kal 11 baje meeting hai.", "sensitive": [], "decoy": true, "id": "P066"}
+{"kind": "decoy", "text": "Ticket 99120034 booked for Friday.", "sensitive": [], "decoy": true, "id": "P067"}
+{"kind": "decoy", "text": "He scored 4111 points in the game.", "sensitive": [], "decoy": true, "id": "P068"}
+{"kind": "decoy", "text": "Our address is Flat 12, Kasarwadi, Pune 411034.", "sensitive": [], "decoy": true, "id": "P069"}
+{"kind": "decoy", "text": "Seat numbers 12 13 14 are reserved.", "sensitive": [], "decoy": true, "id": "P070"}
+{"kind": "decoy", "text": "Temperature will be 32 degrees on 2026-11-16.", "sensitive": [], "decoy": true, "id": "P071"}
+{"kind": "decoy", "text": "My employee ID is E-20451.", "sensitive": [], "decoy": true, "id": "P072"}
+{"kind": "decoy", "text": "Transaction history for last 30 days attached.", "sensitive": [], "decoy": true, "id": "P073"}
+{"kind": "decoy", "text": "The password policy requires 12 characters.", "sensitive": [], "decoy": true, "id": "P074"}
+{"kind": "decoy", "text": "I forgot my password again, so annoying.", "sensitive": [], "decoy": true, "id": "P075"}
+{"kind": "decoy", "text": "Keep your card safe when travelling.", "sensitive": [], "decoy": true, "id": "P076"}
+{"kind": "decoy", "text": "Tracking number 1Z999AA10123456784 on its way.", "sensitive": [], "decoy": true, "id": "P077"}
+{"kind": "decoy", "text": "Batch 2026 11 15 08 30 completed.", "sensitive": [], "decoy": true, "id": "P078"}
+{"kind": "decoy", "text": "Aadhaar linking deadline is next month.", "sensitive": [], "decoy": true, "id": "P079"}

@@ -1,0 +1,91 @@
+{
+  "actionability_macro_f1": {
+    "value": 0.6376148267526188
+  },
+  "false_action_rate": {
+    "value": 0.21818181818181817,
+    "k": 12,
+    "n": 55
+  },
+  "missed_action_rate": {
+    "value": 0.0,
+    "k": 0,
+    "n": 28
+  },
+  "schema_valid_rate": {
+    "value": 1.0,
+    "k": 83,
+    "n": 83
+  },
+  "intent_accuracy": {
+    "value": 0.8928571428571429,
+    "k": 25,
+    "n": 28
+  },
+  "ece": {
+    "value": 0.1500000000000002
+  },
+  "latency_p50_s": {
+    "value": 3.540002593000281
+  },
+  "latency_p95_s": {
+    "value": 5.001687339300405
+  },
+  "timeres_exact": {
+    "value": 0.38461538461538464
+  },
+  "multiwoz_jga": {
+    "value": 0.16666666666666666,
+    "k": 10,
+    "n": 60
+  },
+  "multiwoz_slot_f1": {
+    "value": 0.48214285714285715
+  },
+  "massive_intent_acc_en": {
+    "value": 0.6833333333333333,
+    "k": 41,
+    "n": 60
+  },
+  "massive_intent_acc_hi": {
+    "value": 0.6333333333333333,
+    "k": 38,
+    "n": 60
+  },
+  "massive_slot_f1_en": {
+    "value": 0.2836879432624113
+  },
+  "massive_slot_f1_hi": {
+    "value": 0.16216216216216214
+  },
+  "false_execution_rate": {
+    "value": 0.04819277108433735,
+    "k": 4,
+    "n": 83
+  },
+  "task_completion": {
+    "value": 0.8214285714285714,
+    "k": 23,
+    "n": 28
+  },
+  "redaction_recall": {
+    "value": 1.0
+  },
+  "redaction_fpr": {
+    "value": 0.0
+  },
+  "redaction_recall_adversarial": {
+    "value": 0.16666666666666666
+  },
+  "general_acc": {
+    "value": 0.9285714285714286,
+    "k": 26,
+    "n": 28
+  },
+  "indian_gap_points": {
+    "value": -1.7879948914431676
+  },
+  "robustness_worst_drop_pts": {
+    "value": 10.8
+  }
+}

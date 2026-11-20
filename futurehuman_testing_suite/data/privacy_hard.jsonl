@@ -1,0 +1,12 @@
+{"kind": "otp_spaced", "text": "your otp is 4 8 2 9 1 3", "sensitive": ["4 8 2 9 1 3"], "decoy": false, "id": "H01"}
+{"kind": "otp_words", "text": "the otp is four eight two nine one three", "sensitive": ["four eight two nine one three"], "decoy": false, "id": "H02"}
+{"kind": "otp_no_keyword", "text": "Use 553920 to confirm the payment, valid 10 min", "sensitive": ["553920"], "decoy": false, "id": "H03"}
+{"kind": "card_split", "text": "my card is 4111 1111 and then 1111 1111", "sensitive": ["4111 1111", "1111 1111"], "decoy": false, "id": "H04"}
+{"kind": "card_obfuscated", "text": "card: 4111-1111-1111-1111 (dont tell)", "sensitive": ["4111-1111-1111-1111"], "decoy": false, "id": "H05"}
+{"kind": "password_no_keyword", "text": "wifi login is Rahul@123 for the guest network", "sensitive": ["Rahul@123"], "decoy": false, "id": "H06"}
+{"kind": "secret_no_keyword", "text": "here you go: 9f8e7d6c5b4a39281716ab0c1d2e3f4a", "sensitive": ["9f8e7d6c5b4a39281716ab0c1d2e3f4a"], "decoy": false, "id": "H07"}
+{"kind": "password_hinglish_roman", "text": "mera pass Sunshine#77 hai", "sensitive": ["Sunshine#77"], "decoy": false, "id": "H08"}
+{"kind": "aadhaar_dashes", "text": "aadhaar 2345-6789-0123", "sensitive": ["2345-6789-0123"], "decoy": false, "id": "H09"}
+{"kind": "upi_unknown_bank", "text": "send money to rahul@okkotak", "sensitive": ["rahul@okkotak"], "decoy": false, "id": "H10"}
+{"kind": "api_key_in_url", "text": "https://api.example.com/v1?api_key=abcd1234efgh5678", "sensitive": ["abcd1234efgh5678"], "decoy": false, "id": "H11"}
+{"kind": "pin_words", "text": "my atm pin is one two three four", "sensitive": ["one two three four"], "decoy": false, "id": "H12"}

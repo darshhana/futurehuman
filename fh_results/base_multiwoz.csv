@@ -1,0 +1,622 @@
+dialogue_id,turn,n_history,jga,tp,fp,fn,intent_ok,json_valid,latency_s,raw
+MUL1833.json,10,10,False,0,8,0,False,True,9.858095707999382,"{
+  ""intents"": {
+    ""find_attraction"": true,
+    ""book_train"": true
+  },
+  ""slot_values"": {
+    ""attraction-name"": ""Cambridge Contemporary Art"",
+    ""attraction-type"": ""contemporary art"",
+    ""attraction-area"": ""centre of town"",
+    ""train-destination"": ""Cambridge"",
+    ""train-departure"": ""King's Lynn"",
+    ""train-leaveat"": ""8:45"",
+    ""train-bookpeople"": ""2"",
+    ""train-reference"": ""XW5PQW8M""
+  }
+}"
+PMUL3707.json,2,2,False,1,1,0,False,True,2.7567328839995753,"{""intents"": {""find_attraction"": ""find_attraction""}, ""slot_values"": {""attraction-type"": ""museum"", ""attraction-area"": ""town""}}"
+SNG01752.json,4,4,False,1,1,2,False,True,4.304918327999985,"{
+  ""intents"": {
+    ""taxi"": ""book_taxi""
+  },
+  ""slot_values"": {
+    ""taxi-arriveby"": ""12:15"",
+    ""taxi-destination"": ""rosa's bed and breakfast""
+  }
+}"
+MUL1588.json,8,8,False,2,1,2,False,True,5.065789725000286,"{
+  ""intents"": {
+    ""book_train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-departure"": ""12:30"",
+    ""train-destination"": ""ely"",
+    ""train-day"": ""tuesday""
+  }
+}"
+MUL2686.json,2,2,False,1,1,1,False,True,2.591311713000323,"{""intents"": {""find_attraction"": ""find_attraction""}, ""slot_values"": {""attraction-area"": ""south"", ""attraction-type"": ""all""}}"
+MUL1489.json,14,14,False,9,0,3,False,True,10.086320178999813,"{
+  ""intents"": {
+    ""book_restaurant"": true,
+    ""book_train"": true
+  },
+  ""slot_values"": {
+    ""restaurant-name"": ""cote"",
+    ""restaurant-bookday"": ""Friday"",
+    ""restaurant-bookpeople"": ""8"",
+    ""restaurant-booktime"": ""16:30"",
+    ""restaurant-pricerange"": ""expensive"",
+    ""train-departure"": ""peterborough"",
+    ""train-destination"": ""cambridge"",
+    ""train-arriveby"": ""11:15"",
+    ""train-day"": ""Friday""
+  }
+}"
+SNG01538.json,0,0,True,2,0,0,False,True,2.509577428000739,"{""intents"": {""book_hotel"": ""book_hotel""}, ""slot_values"": {""hotel-stars"": ""0"", ""hotel-parking"": ""no""}}"
+PMUL2708.json,0,0,False,0,1,1,False,True,6.638497625999662,"{""intents"": {""book_hotel"": false, ""book_restaurant"": false, ""book_train"": false, ""find_attraction"": false, ""find_bus"": false, ""find_hospital"": false, ""find_hotel"": true, ""find_police"": false, ""find_restaurant"": false, ""find_taxi"": false, ""find_train"": false}, ""slot_values"": {""hotel-parking"": ""free""}}"
+MUL2567.json,8,8,False,3,0,2,False,True,4.344361295999988,"{
+  ""intents"": {
+    ""find_hotel"": ""book_hotel""
+  },
+  ""slot_values"": {
+    ""hotel-area"": ""north"",
+    ""hotel-type"": ""guesthouse"",
+    ""hotel-internet"": ""yes""
+  }
+}"
+SNG0897.json,2,2,False,1,1,2,False,True,3.537591316000544,"{
+  ""intents"": {
+    ""book_hotel"": ""book_hotel""
+  },
+  ""slot_values"": {
+    ""hotel-pricerange"": ""moderate"",
+    ""hotel-internet"": ""free""
+  }
+}"
+MUL2523.json,12,12,False,0,14,0,False,True,14.926198392000515,"{
+  ""intents"": {
+    ""book_hotel"": true,
+    ""find_attraction"": true,
+    ""book_taxi"": true
+  },
+  ""slot_values"": {
+    ""hotel-name"": ""the autumn house"",
+    ""hotel-area"": ""east"",
+    ""hotel-pricerange"": ""cheap"",
+    ""hotel-stars"": ""4"",
+    ""hotel-bookpeople"": ""2"",
+    ""hotel-bookstay"": ""5"",
+    ""hotel-bookday"": ""wednesday"",
+    ""attraction-name"": ""churchill college"",
+    ""attraction-area"": ""west"",
+    ""attraction-type"": ""college"",
+    ""taxi-destination"": ""the hotel"",
+    ""taxi-departure"": ""24:4"
+PMUL3992.json,6,6,False,2,1,2,False,True,5.364006747000531,"{
+  ""intents"": {
+    ""book_train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-arriveby"": ""11:30"",
+    ""train-day"": ""same day as booking"",
+    ""train-departure"": ""birmingham new street""
+  }
+}"
+SNG0280.json,4,4,True,5,0,0,True,True,5.5784480989996155,"{
+  ""intents"": {
+    ""train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-day"": ""Sunday"",
+    ""train-arriveby"": ""18:00"",
+    ""train-departure"": ""Leicester"",
+    ""train-destination"": ""Cambridge"",
+    ""train-bookpeople"": ""7""
+  }
+}"
+SNG1086.json,0,0,False,1,1,0,False,True,3.0112099150001086,"{""intents"": {""find_attraction"": ""find_attraction""}, ""slot_values"": {""attraction-name"": ""Kettle's Yard"", ""attraction-type"": ""attraction-type""}}"
+MUL1588.json,6,6,False,3,1,1,False,True,5.491504493999855,"{
+  ""intents"": {
+    ""book_train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-departure"": ""Cambridge"",
+    ""train-arriveby"": ""12:30"",
+    ""train-day"": ""Tuesday"",
+    ""train-destination"": ""Ely""
+  }
+}"
+MUL0473.json,8,8,False,1,6,0,False,True,8.18656923799972,"{
+  ""intents"": {
+    ""book_train"": ""book_train"",
+    ""find_attraction"": ""find_attraction""
+  },
+  ""slot_values"": {
+    ""train-arriveby"": ""20:30"",
+    ""train-departure"": ""Cambridge"",
+    ""train-destination"": ""Kings lynn"",
+    ""train-day"": ""Wednesday"",
+    ""attraction-type"": ""park"",
+    ""attraction-area"": ""town"",
+    ""attraction-name"": ""park""
+  }
+}"
+PMUL3506.json,6,6,False,2,5,0,False,True,12.681295700999726,"{
+  ""intents"": {
+    ""book_hotel"": false,
+    ""book_restaurant"": false,
+    ""book_train"": false,
+    ""find_attraction"": true,
+    ""find_bus"": false,
+    ""find_hospital"": false,
+    ""find_hotel"": true,
+    ""find_police"": false,
+    ""find_restaurant"": false,
+    ""find_taxi"": false,
+    ""find_train"": false
+  },
+  ""slot_values"": {
+    ""attraction-name"": ""All Saints Church"",
+    ""attraction-type"": ""church"",
+    ""hotel-name"": ""Warkworth House"",
+    ""hotel-area"": ""cambridge"",
+    ""hotel-pricerange"": ""u"
+MUL2001.json,10,10,False,1,2,4,False,True,4.568604838000283,"{
+  ""intents"": {
+    ""book_train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-departure"": ""22:11"",
+    ""train-destination"": ""king's lynn"",
+    ""train-bookpeople"": ""3""
+  }
+}"
+MUL1122.json,8,8,False,0,9,5,False,True,9.944125199000155,"{
+  ""intents"": {
+    ""book_hotel"": true
+  },
+  ""slot_values"": {
+    ""hotel-name"": ""Hobsons House Hotel"",
+    ""hotel-area"": ""west"",
+    ""hotel-bookday"": ""Monday"",
+    ""hotel-bookpeople"": ""5"",
+    ""hotel-bookstay"": ""4"",
+    ""hotel-reference"": ""O88L1FJB"",
+    ""taxi-departure"": ""11:15"",
+    ""taxi-destination"": ""Hobsons House Hotel"",
+    ""taxi-arriveby"": ""11:15""
+  }
+}"
+MUL0555.json,6,6,True,4,0,0,False,True,5.1124319749997085,"{
+  ""intents"": {
+    ""book_train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-departure"": ""Leicester"",
+    ""train-destination"": ""Cambridge"",
+    ""train-day"": ""Sunday"",
+    ""train-arriveby"": ""20:00""
+  }
+}"
+PMUL4344.json,8,8,False,5,2,4,False,True,7.021991247000187,"{
+  ""intents"": {
+    ""book_hotel"": true
+  },
+  ""slot_values"": {
+    ""hotel-type"": ""guesthouse"",
+    ""hotel-area"": ""north"",
+    ""hotel-bookpeople"": ""6"",
+    ""hotel-bookstay"": ""2"",
+    ""hotel-bookday"": ""tuesday"",
+    ""hotel-internet"": ""no"",
+    ""hotel-parking"": ""no""
+  }
+}"
+PMUL4326.json,0,0,True,0,0,0,False,True,1.5925863310003479,"{""intents"": {""find_attraction"": ""find_attraction""}, ""slot_values"": {}}"
+PMUL4919.json,2,2,True,2,0,0,False,True,3.425880134000181,"{
+  ""intents"": {
+    ""find_attraction"": ""yes""
+  },
+  ""slot_values"": {
+    ""attraction-type"": ""swimmingpool"",
+    ""attraction-area"": ""east""
+  }
+}"
+MUL0454.json,14,14,False,0,8,3,False,True,8.913017511000362,"{
+  ""intents"": {
+    ""book_train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-departure"": ""london kings cross"",
+    ""train-destination"": ""cambridge"",
+    ""train-day"": ""thursday"",
+    ""train-leaveat"": ""17:17"",
+    ""train-arriveby"": ""18:08"",
+    ""restaurant-name"": ""adc theatre on park street"",
+    ""restaurant-area"": ""town centre"",
+    ""restaurant-type"": ""theatre""
+  }
+}"
+PMUL4325.json,10,10,False,6,0,4,False,True,6.807260399999905,"{
+  ""intents"": {
+    ""book_restaurant"": true,
+    ""book_hotel"": true
+  },
+  ""slot_values"": {
+    ""restaurant-food"": ""british"",
+    ""restaurant-bookpeople"": ""3"",
+    ""restaurant-booktime"": ""13:00"",
+    ""restaurant-name"": ""fitzbillies restaurant"",
+    ""hotel-pricerange"": ""expensive"",
+    ""hotel-stars"": ""4""
+  }
+}"
+PMUL1772.json,0,0,False,0,1,1,False,True,2.466736153000056,"{""intents"": {""train"": ""book_train""}, ""slot_values"": {""train-departure"": ""cambridge""}}"
+MUL1612.json,8,8,False,0,6,1,False,True,7.6317317739994905,"{
+  ""intents"": {
+    ""book_train"": ""book_train"",
+    ""book_restaurant"": ""book_restaurant""
+  },
+  ""slot_values"": {
+    ""train-departure"": ""Sunday"",
+    ""train-destination"": ""London Liverpool Street"",
+    ""train-arriveby"": ""18:00"",
+    ""restaurant-name"": ""the sitar tandoori"",
+    ""restaurant-food"": ""Indian"",
+    ""restaurant-area"": ""South, West, and East""
+  }
+}"
+MUL0473.json,12,12,False,1,7,0,False,True,9.265626688999873,"{
+  ""intents"": {
+    ""book_train"": ""book_train"",
+    ""find_attraction"": ""find_attraction""
+  },
+  ""slot_values"": {
+    ""train-arriveby"": ""20:30"",
+    ""train-bookpeople"": ""6"",
+    ""train-day"": ""Wednesday"",
+    ""train-departure"": ""Cambridge"",
+    ""train-destination"": ""Kings lynn"",
+    ""attraction-name"": ""Milton Country Park"",
+    ""attraction-type"": ""park"",
+    ""attraction-area"": ""town""
+  }
+}"
+PMUL1359.json,10,10,False,1,2,1,False,True,4.445231391000561,"{
+  ""intents"": {
+    ""find_attraction"": ""suggest_attraction""
+  },
+  ""slot_values"": {
+    ""attraction-name"": ""regency gallery"",
+    ""attraction-type"": ""museum"",
+    ""attraction-area"": ""centre of town""
+  }
+}"
+PMUL3672.json,10,10,False,2,6,0,False,True,9.12991523599976,"{
+  ""intents"": {
+    ""book_train"": true,
+    ""find_attraction"": true
+  },
+  ""slot_values"": {
+    ""train-departure"": ""London Kings Cross"",
+    ""train-destination"": ""Cambridge"",
+    ""train-leaveat"": ""10:30"",
+    ""train-day"": ""Tuesday"",
+    ""train-arriveby"": ""10:08"",
+    ""train-bookpeople"": ""3"",
+    ""attraction-area"": ""south"",
+    ""attraction-type"": ""entertainment""
+  }
+}"
+SNG01919.json,2,2,False,2,0,1,False,True,4.114576932000091,"{
+  ""intents"": {
+    ""taxi"": ""book_taxi""
+  },
+  ""slot_values"": {
+    ""taxi-destination"": ""el shaddai"",
+    ""taxi-arriveby"": ""08:30""
+  }
+}"
+MUL1657.json,12,12,False,0,12,0,False,True,11.809864790000574,"{
+  ""intents"": {
+    ""book_train"": ""book_train"",
+    ""book_restaurant"": ""book_restaurant""
+  },
+  ""slot_values"": {
+    ""train-arriveby"": ""16:15"",
+    ""train-bookpeople"": ""6"",
+    ""train-day"": ""Saturday"",
+    ""train-departure"": ""Cambridge"",
+    ""train-destination"": ""Broxbourne"",
+    ""restaurant-name"": ""The Lucky Star"",
+    ""restaurant-bookday"": ""Saturday"",
+    ""restaurant-bookpeople"": ""6"",
+    ""restaurant-booktime"": ""11:45"",
+    ""restaurant-food"": ""Chinese"",
+    ""restaurant-area"": ""south side"",
+  "
+MUL0004.json,4,4,False,1,4,0,False,True,6.705407871000716,"{
+  ""intents"": {
+    ""book_restaurant"": true,
+    ""find_hotel"": true
+  },
+  ""slot_values"": {
+    ""restaurant-name"": ""Nandos City Centre"",
+    ""restaurant-bookpeople"": ""4"",
+    ""restaurant-booktime"": ""15:00"",
+    ""hotel-type"": ""guesthouse"",
+    ""hotel-area"": ""Cambridge""
+  }
+}"
+PMUL1256.json,8,8,False,1,1,1,False,True,3.5757580689996757,"{
+  ""intents"": {
+    ""find_attraction"": ""ask""
+  },
+  ""slot_values"": {
+    ""attraction-type"": ""museum"",
+    ""attraction-area"": ""centre of town""
+  }
+}"
+MUL0260.json,6,6,False,5,2,1,False,True,8.350128005999977,"{
+  ""intents"": {
+    ""book_train"": true,
+    ""book_restaurant"": true
+  },
+  ""slot_values"": {
+    ""train-arriveby"": ""14:30"",
+    ""train-departure"": ""9:16"",
+    ""train-destination"": ""Cambridge"",
+    ""train-day"": ""Wednesday"",
+    ""train-source"": ""Norwich"",
+    ""restaurant-food"": ""Corsica"",
+    ""restaurant-pricerange"": ""moderate""
+  }
+}"
+SNG01983.json,6,6,False,5,2,3,False,True,6.5068458120003925,"{
+  ""intents"": {
+    ""book_hotel"": true
+  },
+  ""slot_values"": {
+    ""hotel-pricerange"": ""cheap"",
+    ""hotel-area"": ""east"",
+    ""hotel-parking"": ""free"",
+    ""hotel-type"": ""guest house"",
+    ""hotel-bookpeople"": ""1"",
+    ""hotel-bookstay"": ""5"",
+    ""hotel-bookday"": ""friday""
+  }
+}"
+MUL1833.json,8,8,False,4,2,1,False,True,7.280114471000161,"{
+  ""intents"": {
+    ""book_train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-day"": ""monday"",
+    ""train-departure"": ""king's lynn"",
+    ""train-destination"": ""cambridge"",
+    ""train-arriveby"": ""8:45"",
+    ""train-bookpeople"": ""2"",
+    ""train-reference"": ""tr8950""
+  }
+}"
+MUL0260.json,10,10,False,3,5,0,False,True,9.156033225000101,"{
+  ""intents"": {
+    ""book_train"": ""book_train"",
+    ""book_restaurant"": ""book_restaurant""
+  },
+  ""slot_values"": {
+    ""train-arriveby"": ""14:30"",
+    ""train-departure"": ""9:16"",
+    ""train-destination"": ""Cambridge"",
+    ""train-day"": ""Wednesday"",
+    ""train-source"": ""Norwich"",
+    ""restaurant-area"": ""centre"",
+    ""restaurant-food"": ""international"",
+    ""restaurant-pricerange"": ""moderate""
+  }
+}"
+PMUL4919.json,12,12,False,3,0,1,False,True,3.571539742999448,"{""intents"": {""book_train"": ""book_train""}, ""slot_values"": {""train-arriveby"": ""13:00"", ""train-departure"": ""London Liverpool Street"", ""train-day"": ""Thursday""}}"
+SNG01752.json,0,0,False,0,1,1,False,True,2.0790405369998552,"{""intents"": {""taxi"": ""book""}, ""slot_values"": {""taxi-destination"": ""dojo noodle bar""}}"
+MUL1285.json,6,6,False,4,6,0,False,True,9.44814265399964,"{
+  ""intents"": {
+    ""book_hotel"": ""yes""
+  },
+  ""slot_values"": {
+    ""hotel-name"": ""ashley hotel"",
+    ""hotel-area"": ""north part of town"",
+    ""hotel-pricerange"": ""moderately priced"",
+    ""hotel-stars"": ""2"",
+    ""hotel-internet"": ""yes"",
+    ""hotel-parking"": ""yes"",
+    ""hotel-bookpeople"": ""3"",
+    ""hotel-bookstay"": ""5"",
+    ""hotel-bookday"": ""wednesday"",
+    ""hotel-bookreference"": ""reference number""
+  }
+}"
+PMUL1330.json,0,0,True,1,0,0,False,True,2.0723977439993178,"{""intents"": {""find_attraction"": ""find_attraction""}, ""slot_values"": {""attraction-type"": ""museum""}}"
+MUL0760.json,4,4,False,1,5,2,False,True,6.725410779999947,"{
+  ""intents"": {
+    ""book_hotel"": true
+  },
+  ""slot_values"": {
+    ""hotel-area"": ""centre of town"",
+    ""hotel-pricerange"": ""expensive"",
+    ""hotel-internet"": ""free wifi"",
+    ""hotel-parking"": ""free parking"",
+    ""hotel-name"": ""Gonville hotel"",
+    ""hotel-type"": ""hotel""
+  }
+}"
+PMUL1136.json,16,16,False,2,4,1,False,True,7.343093514999964,"{
+  ""intents"": {
+    ""book_train"": ""book_train"",
+    ""find_attraction"": ""find_attraction""
+  },
+  ""slot_values"": {
+    ""train-arriveby"": ""19:15"",
+    ""train-departure"": ""Cambridge"",
+    ""train-destination"": ""Kings Lynn"",
+    ""attraction-name"": ""All Saints Church"",
+    ""attraction-type"": ""architecture"",
+    ""attraction-area"": ""town""
+  }
+}"
+PMUL1330.json,2,2,True,2,0,0,False,True,3.810659667999971,"{
+  ""intents"": {
+    ""find_attraction"": ""suggest""
+  },
+  ""slot_values"": {
+    ""attraction-area"": ""centre"",
+    ""attraction-type"": ""museum""
+  }
+}"
+PMUL4641.json,2,2,False,0,4,1,False,True,4.923673133000193,"{
+  ""intents"": {
+    ""find_restaurant"": ""find_restaurant""
+  },
+  ""slot_values"": {
+    ""restaurant-name"": ""kambar"",
+    ""restaurant-type"": ""club"",
+    ""restaurant-address"": ""1 Wheeler Street"",
+    ""restaurant-price-range"": ""5 pounds""
+  }
+}"
+PMUL4504.json,8,8,False,2,4,0,False,True,5.872860039999978,"{
+  ""intents"": {
+    ""book_hotel"": true
+  },
+  ""slot_values"": {
+    ""hotel-area"": ""north"",
+    ""hotel-bookpeople"": ""4"",
+    ""hotel-bookstay"": ""4"",
+    ""hotel-pricerange"": ""expensive"",
+    ""hotel-type"": ""guesthouse"",
+    ""hotel-internet"": ""free wifi""
+  }
+}"
+MUL2637.json,8,8,True,2,0,0,False,True,4.133279933000267,"{
+  ""intents"": {
+    ""find_attraction"": ""ask""
+  },
+  ""slot_values"": {
+    ""attraction-type"": ""entertainment"",
+    ""attraction-area"": ""south""
+  }
+}"
+PMUL2708.json,18,18,False,0,14,0,False,True,17.70061506699949,"{
+  ""intents"": {
+    ""book_hotel"": true,
+    ""find_attraction"": true,
+    ""book_train"": false,
+    ""find_bus"": false,
+    ""find_hospital"": false,
+    ""find_hotel"": false,
+    ""find_police"": false,
+    ""find_restaurant"": false,
+    ""find_taxi"": true,
+    ""find_train"": false
+  },
+  ""slot_values"": {
+    ""hotel-area"": ""centre"",
+    ""hotel-type"": ""guesthouse"",
+    ""hotel-stars"": ""0"",
+    ""hotel-parking"": ""free"",
+    ""hotel-bookpeople"": ""5"",
+    ""hotel-bookstay"": ""3"",
+    ""hotel-bookday"": ""tuesday"",
+ "
+MUL1285.json,4,4,False,1,4,0,False,True,6.206643972000165,"{
+  ""intents"": {
+    ""book_restaurant"": true
+  },
+  ""slot_values"": {
+    ""restaurant-pricerange"": ""cheap"",
+    ""restaurant-name"": ""Pizza Hut City Centre"",
+    ""restaurant-area"": ""city centre"",
+    ""attraction-name"": ""Ashley Hotel"",
+    ""hotel-name"": ""Ashley Hotel""
+  }
+}"
+SNG0280.json,10,10,False,0,5,0,False,True,5.595899811999516,"{
+  ""intents"": {
+    ""train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-day"": ""Sunday"",
+    ""train-arriveby"": ""18:00"",
+    ""train-departure"": ""Leicester"",
+    ""train-destination"": ""Cambridge"",
+    ""train-bookpeople"": ""7""
+  }
+}"
+PMUL0685.json,6,6,False,4,5,0,False,True,9.364263086999927,"{
+  ""intents"": {
+    ""book_restaurant"": true,
+    ""book_train"": true
+  },
+  ""slot_values"": {
+    ""restaurant-area"": ""north"",
+    ""restaurant-food"": ""Italian"",
+    ""restaurant-bookday"": ""Saturday"",
+    ""restaurant-bookpeople"": ""4"",
+    ""restaurant-booktime"": ""16:00"",
+    ""train-day"": ""Sunday"",
+    ""train-departure"": ""Cambridge"",
+    ""train-destination"": ""Norwich"",
+    ""train-leaveat"": ""13:00""
+  }
+}"
+MUL2686.json,4,4,False,0,2,2,False,True,3.1782510339999135,"{""intents"": {""find_attraction"": ""find_attraction""}, ""slot_values"": {""attraction-area"": ""south side of the city"", ""attraction-type"": ""nightclub, cinema, museum""}}"
+MUL2120.json,0,0,False,1,1,1,False,True,4.034108134999769,"{
+  ""intents"": {
+    ""book_train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-departure"": ""16:45"",
+    ""train-destination"": ""birmingham new street""
+  }
+}"
+PMUL4325.json,4,4,False,2,0,1,False,True,3.5194762130004165,"{
+  ""intents"": {
+    ""book_restaurant"": true
+  },
+  ""slot_values"": {
+    ""restaurant-food"": ""british"",
+    ""restaurant-area"": ""centre""
+  }
+}"
+MUL2686.json,0,0,False,0,1,1,False,True,2.138778323000224,"{""intents"": {""default"": ""find_attraction""}, ""slot_values"": {""attraction-area"": ""south side of the city""}}"
+MUL1766.json,0,0,False,1,1,1,False,True,4.882076251000399,"{
+  ""intents"": {
+    ""train"": ""book_train""
+  },
+  ""slot_values"": {
+    ""train-arriveby"": ""16:45"",
+    ""train-departure"": ""Birmingham New Street"",
+    ""train-arriveby"": ""16:45""
+  }
+}"
+PMUL3992.json,2,2,True,4,0,0,False,True,5.522214941999664,"{
+  ""intents"": {
+    ""book_restaurant"": ""book_restaurant""
+  },
+  ""slot_values"": {
+    ""restaurant-area"": ""west"",
+    ""restaurant-bookday"": ""tuesday"",
+    ""restaurant-bookpeople"": ""4"",
+    ""restaurant-booktime"": ""15:45""
+  }
+}"
+MUL0785.json,4,4,False,1,2,2,False,True,4.166901008000423,"{
+  ""intents"": {
+    ""book_hotel"": true
+  },
+  ""slot_values"": {
+    ""hotel-pricerange"": ""moderately priced"",
+    ""hotel-area"": ""north"",
+    ""hotel-parking"": ""free""
+  }
+}"
+PMUL3672.json,0,0,True,0,0,0,False,True,1.610283293000066,"{""intents"": {""find_attraction"": ""find_attraction""}, ""slot_values"": {}}"

@@ -1,0 +1,37 @@
+{
+  "prompt_id": "A1_improved",
+  "fewshot": [
+    "A128",
+    "A102",
+    "A101",
+    "A093",
+    "A088",
+    "A104",
+    "A110",
+    "A121"
+  ],
+  "model": "Qwen3-4B",
+  "quant": "4bit",
+  "adapter": null,
+  "env": {
+    "timestamp": "2026-11-18 15:57:48",
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "model_id": "Qwen/Qwen3-4B",
+    "quantization": "4bit",
+    "seed": 0,
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2",
+    "peft": "0.21.2",
+    "datasets": "3.6.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "cuda": "13.0",
+    "gpu": "Tesla T4",
+    "gpu_mem_gb": 14.56,
+    "model_revision": null,
+    "adapter": null
+  }
+}

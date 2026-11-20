@@ -1,0 +1,200 @@
+﻿id,conversation (label the LAST turn),your_label (actionable / non_actionable / ambiguous),comment
+A036,USER: Maybe I should meet Rahul on Thursday.,non_actionable,
+A094,"OTHER: Dinner Tuesday ko 7 baje?
+USER: Done, pakka Tuesday 7 baje.",actionable,
+A017,USER: Cancel the Friday review and move the Monday sync to Tuesday at 11 AM.,actionable,
+A077,USER: Cancel the meeting.,non_actionable,
+A080,"OTHER: Can you send me the file today?
+USER: I'll try.",ambiguous,
+A066,USER: Explain how GPS works.,non_actionable,
+A004,USER: Book a call with the design team on Wednesday at 3 PM.,actionable,
+A088,USER: Priya ko message bhej do ki main 10 minute late aaunga.,ambiguous,
+A035,USER: Put a meeting with Rahul on Thursday at 5 PM in my calendar.,actionable,
+A100,OTHER: Kya hum Thursday ko 4 baje project review rakh sakte hain?,ambiguous,
+A116,"OTHER: Thursday ya Friday?
+USER: Dono chalega.",ambiguous,
+A001,USER: Remind me to call Rahul tomorrow at 10 AM.,actionable,
+A112,"USER: Client meeting kal 11 baje hai, thoda tension hai.",non_actionable,
+A042,USER: I called Rahul yesterday at 10 AM.,non_actionable,
+A090,"USER: Friday ki meeting Saturday ko shift kar do, 2 baje.",actionable,
+A079,USER: Message Anil about tomorrow.,non_actionable,
+A109,"USER: Client meeting hai kya kal 11 baje?
+OTHER: Haan, add kar du calendar mein?
+USER: Nahi, calendar mein add mat karo, main khud dekh lunga.",non_actionable,
+A049,USER: I had a meeting with Rahul yesterday and it went well.,non_actionable,
+A129,USER: मीटिंग रद्द कर दो।,ambiguous,
+A002,USER: Set a reminder to submit the invoice on Friday at 5 PM.,actionable,
+A030,"OTHER: Please send me the report by Wednesday noon.
+USER: Will do.",actionable,
+A053,USER: Did you see the match yesterday?,non_actionable,
+A044,"USER: Did you watch the match last night?
+OTHER: Yes, what a game.
+USER: The weather was bad though.
+OTHER: True. By the way, can we review the budget on Wednesday at 2 PM?
+USER: Wednesday is usually busy for me.",ambiguous,
+A057,"USER: I have a client meeting tomorrow at 11 AM.
+OTHER: Would you like me to add it to your calendar?
+USER: No, don't add it to my calendar. I'll manage it myself.",non_actionable,
+A104,USER: Thursday meetings ke liye achha din ho sakta hai.,non_actionable,
+A115,USER: Meeting cancel kar do.,ambiguous,
+A089,USER: Kal 11 baje wali Rahul ki meeting cancel kar do.,ambiguous,
+A068,USER: Meetings are exhausting.,non_actionable,
+A015,"USER: I cannot attend the meeting tomorrow.
+OTHER: Thursday?
+USER: Thursday works.",actionable,
+A026,"OTHER: I'll be free after 6 on Tuesday. Dinner then?
+USER: Perfect, let's do Tuesday at 6:30.",actionable,
+A076,"OTHER: How about Thursday or Friday?
+USER: Either is fine.",ambiguous,
+A058,"USER: I have a client meeting tomorrow at 11 AM.
+OTHER: Would you like me to add it to your calendar?
+USER: No, forget it. It has been cancelled.",non_actionable,
+A023,OTHER: Can we schedule the project review for Thursday at 4 PM?,ambiguous,
+A067,USER: I wonder if I should join a gym.,non_actionable,
+A021,"OTHER: Can we schedule the project review for Thursday at 4 PM?
+USER: If Thursday suits the others, we'll see.",ambiguous,
+A046,USER: I usually wake up at 7 AM.,non_actionable,
+A003,USER: Schedule a meeting with Priya on Monday at 11 AM.,actionable,
+A043,"USER: Did you watch the match last night?
+OTHER: Yes, what a game.
+USER: The weather was bad though.
+OTHER: True. By the way, can we review the budget on Wednesday at 2 PM?
+USER: Wednesday at 2 works.",actionable,
+A052,USER: The weather is great today.,non_actionable,
+A124,"OTHER: क्या हम गुरुवार को 4 बजे मिल सकते हैं?
+USER: नहीं, गुरुवार मेरे लिए ठीक नहीं है।",non_actionable,
+A061,USER: I scheduled a meeting with Priya last week and she never replied.,ambiguous,
+A011,"USER: Schedule a meeting with Rahul on Friday.
+OTHER: Sure, Friday meeting noted.
+USER: Actually, make it Saturday instead.",actionable,
+A078,"USER: Schedule a call with Kiran on Monday.
+OTHER: Done.
+USER: Move it to the afternoon.",actionable,
+A033,"OTHER: The server is down! Please inform the client immediately.
+USER: On it, messaging the client now.",actionable,
+A082,USER: Put something on my calendar for Friday.,ambiguous,
+A114,USER: Shayad mujhe kal client se milna chahiye.,ambiguous,
+A128,USER: शायद मुझे कल क्लाइंट से मिलना चाहिए।,ambiguous,
+A087,USER: Rahul ke saath Friday 3 baje meeting schedule kar do.,actionable,
+A093,"USER: Meri Thursday wali meeting Neha ke saath hai na, usko Friday 5 baje kar do.",actionable,
+A086,USER: Kal subah 10 baje Rahul ko call karne ka reminder laga do.,actionable,
+A022,"OTHER: Can we schedule the project review for Thursday at 4 PM?
+USER: Maybe Thursday, let me check my calendar.",ambiguous,
+A032,"USER: Urgent, message the vendor right now that the shipment is delayed.",ambiguous,
+A034,USER: I'll meet Rahul on Thursday at 5 PM.,ambiguous,
+A063,USER: What is a good time for team meetings in general?,non_actionable,
+A037,USER: We should meet sometime next week.,ambiguous,
+A092,USER: Ek task bana do: client ka proposal aaj shaam tak review karna hai.,actionable,
+A062,USER: Priya said she would call me tomorrow.,non_actionable,
+A050,USER: My meeting tomorrow is at 11 and I am a bit nervous.,non_actionable,
+A045,"USER: Did you watch the match last night?
+OTHER: Yes, what a game.
+USER: The weather was bad though.
+OTHER: True. By the way, can we review the budget on Wednesday at 2 PM?
+USER: I'll check my calendar and let you know.",ambiguous,
+A108,USER: Agar Rahul free hua toh Friday ko dekhenge.,ambiguous,
+A095,"OTHER: Report Wednesday tak bhej dena.
+USER: Theek hai, bhej dunga.",actionable,
+A085,USER: Cancel everything tomorrow.,ambiguous,
+A020,"OTHER: Can we schedule the project review for Thursday at 4 PM?
+USER: Thursday doesn't work for me.",non_actionable,
+A120,USER: कल सुबह 9 बजे मुझे डॉक्टर को कॉल करने की याद दिलाना।,actionable,
+A059,"OTHER: What time is the call?
+USER: It's at 3 PM, I think.",ambiguous,
+A060,USER: Friday is my favorite day of the week.,non_actionable,
+A041,"USER: I need to call Rahul tomorrow at 10 AM, I keep forgetting.",ambiguous,
+A123,"OTHER: क्या हम गुरुवार को 4 बजे मिल सकते हैं?
+USER: हाँ, गुरुवार ठीक है।",actionable,
+A122,USER: राहुल की कल वाली मीटिंग रद्द कर दो।,ambiguous,
+A064,USER: Tell me a joke.,non_actionable,
+A027,"USER: My dentist appointment is at 5 on Friday.
+OTHER: Want me to put a reminder?
+USER: Yes please, an hour before.",actionable,
+A098,"OTHER: Kya hum Thursday ko 4 baje project review rakh sakte hain?
+USER: Nahi, Thursday mere liye kaam nahi karega.",non_actionable,
+A110,OTHER: Main tumhe slides Wednesday tak bhej dunga.,ambiguous,
+A107,USER: Mujhe Thursday pasand hai kyunki us din schedule free rehta hai.,non_actionable,
+A121,USER: शुक्रवार को 3 बजे राहुल के साथ मीटिंग रख दो।,actionable,
+A048,"USER: I love Thursdays.
+OTHER: Why do you prefer Thursdays?
+USER: Because my schedule is usually free.",non_actionable,
+A025,"OTHER: Lunch tomorrow at 1?
+USER: Sounds good, see you then.",ambiguous,
+A126,USER: मैं रोज़ सुबह 7 बजे उठता हूँ।,non_actionable,
+A096,"USER: Monday meeting rakho Anil ke saath 10 baje.
+OTHER: Ho gaya.
+USER: Nahi yaar, Tuesday kar do.",actionable,
+A014,"USER: Remind me to call Rahul at 10.
+OTHER: Done.
+USER: Make that 11 instead.",actionable,
+A024,"USER: We need to review the project.
+OTHER: Should we schedule it for Friday at 3 PM?
+USER: Yes, that works for me.",actionable,
+A091,USER: Mujhe yaad dilana ki Monday ko invoice bhejna hai.,actionable,
+A040,USER: My meeting with Rahul tomorrow at 11 AM is the one I dread most.,non_actionable,
+A097,"OTHER: Kya hum Thursday ko 4 baje project review rakh sakte hain?
+USER: Haan, Thursday theek hai.",actionable,
+A103,USER: Main roz subah 7 baje uthta hoon.,non_actionable,
+A070,USER: I should really start going to bed early.,non_actionable,
+A019,"OTHER: Can we schedule the project review for Thursday at 4 PM?
+USER: Thursday works for me.",ambiguous,
+A111,USER: Aaj mausam bahut accha hai.,non_actionable,
+A038,USER: Cancel my meeting with Rahul tomorrow at 11 AM.,ambiguous,
+A018,USER: Remind me to buy milk tonight and schedule a call with Kiran for Monday at 10 AM.,actionable,
+A072,"USER: We should catch up sometime next week.
+OTHER: Would you like to schedule something?
+USER: Let's see, maybe.",ambiguous,
+A006,USER: Add a task to renew my passport by the end of this month.,actionable,
+A102,USER: Rahul ke saath meetings hamesha lambi chalti hain.,non_actionable,
+A125,"OTHER: क्या हम गुरुवार को 4 बजे मिल सकते हैं?
+USER: शायद, मैं देखता हूँ।",ambiguous,
+A127,USER: गुरुवार मीटिंग के लिए अच्छा दिन हो सकता है।,non_actionable,
+A099,"OTHER: Kya hum Thursday ko 4 baje project review rakh sakte hain?
+USER: Shayad, main dekhta hoon.",non_actionable,
+A074,USER: Schedule a meeting with Rahul.,ambiguous,
+A105,USER: Kal Rahul ke saath meeting bahut achhi rahi.,non_actionable,
+A119,USER: Subah meeting rakh do Anil ke saath.,ambiguous,
+A101,USER: Rahul ke saath ek meeting rakh do.,ambiguous,
+A081,"OTHER: When can we review the project?
+USER: Maybe we could do Thursday at 4.",ambiguous,
+A029,"OTHER: Will you submit the assignment by Friday?
+USER: Yes, I'll submit it by Friday.",actionable,
+A016,"USER: I have the review at 3 on Thursday.
+OTHER: A client call was just added at 3 on Thursday.
+USER: Move the review to 4 PM then.",actionable,
+A073,"USER: I have a call with Neha at 2 and a review with Rahul at 4.
+OTHER: Noted.
+USER: Remind me about the meeting before it starts.",ambiguous,
+A118,USER: Usse kal call karne ka reminder laga do.,ambiguous,
+A055,"OTHER: The client meeting is at 11 tomorrow.
+USER: Yes, I know.",non_actionable,
+A071,USER: Maybe I should meet the client tomorrow.,non_actionable,
+A113,USER: Kabhi milte hain next week.,ambiguous,
+A031,OTHER: I'll send you the report by Wednesday noon.,ambiguous,
+A009,USER: Please tell Rahul the meeting is moved to 5.,actionable,
+A054,USER: I'm thinking about what to cook tonight.,non_actionable,
+A056,"USER: I don't need a reminder for that, I'll remember it myself.",non_actionable,
+A012,"USER: Schedule my meeting with Rahul tomorrow at 11 AM.
+OTHER: Your meeting has been scheduled.
+USER: Actually, cancel it.",actionable,
+A005,USER: Send a message to Anil saying I will be ten minutes late.,ambiguous,
+A028,"OTHER: Don't forget the team standup tomorrow at 9:30.
+USER: Thanks, remind me at 9 sharp.",actionable,
+A065,USER: What is the capital of France?,non_actionable,
+A117,"OTHER: Kya hum next week milein?
+USER: Dekhte hain, shayad.",non_actionable,
+A008,USER: Remind me in half an hour to take the laundry out.,ambiguous,
+A075,USER: Remind me to call him tomorrow.,ambiguous,
+A047,USER: Thursday might be a good day for meetings.,non_actionable,
+A013,"USER: Remind me to water the plants at 7 PM.
+OTHER: Reminder set.
+USER: Never mind, delete that reminder.",actionable,
+A069,"USER: The deadline is Friday, which is stressful.",non_actionable,
+A106,USER: Rahul hamesha last minute pe meeting cancel kar deta hai.,non_actionable,
+A010,USER: Move my Thursday meeting with Neha to Friday at 2 PM.,actionable,
+A007,USER: Create a task to review the pull request today.,actionable,
+A084,USER: I might have to reschedule the Friday review.,ambiguous,
+A051,USER: Rahul always cancels meetings at the last minute.,non_actionable,
+A039,USER: Should I cancel my meeting with Rahul tomorrow at 11 AM?,ambiguous,
+A083,"OTHER: Shall we do 3 or 4 PM on Thursday?
+USER: 4 PM... maybe.",ambiguous,

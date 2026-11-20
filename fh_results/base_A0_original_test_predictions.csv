@@ -1,0 +1,741 @@
+﻿id,split,group,pair,family,lang,gold_label,gold_intents,gold_rc,pred_label,pred_intent,pred_conf,pred_rc,pred_entities,json_valid,schema_valid,schema_errors,intent_ok,entity_recall,entity_precision,latency_s,n_out,raw
+A003,test,g003,,explicit_command,en,actionable,"[""schedule_meeting"", ""confirm_meeting""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Monday, 15 November 2026"", ""time"": ""11 AM"", ""meeting_participant"": ""Priya""}",True,True,,False,1.0,1.0,5.806344882999838,81,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Monday, 15 November 2026"",
+    ""time"": ""11 AM"",
+    ""meeting_participant"": ""Priya""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A004,test,g004,,explicit_command,en,actionable,"[""schedule_meeting"", ""confirm_meeting""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Wednesday, 15 November 2026"", ""time"": ""3 PM"", ""event"": ""Book a call with the design team""}",True,True,,False,1.0,1.0,5.995118838999588,83,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Wednesday, 15 November 2026"",
+    ""time"": ""3 PM"",
+    ""event"": ""Book a call with the design team""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A005,test,g005,,explicit_command,en,actionable,"[""send_message""]",True,actionable,create_reminder,0.95,False,"{""name"": ""Anil"", ""message"": ""I will be ten minutes late""}",True,True,,False,1.0,1.0,4.413632072999917,65,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""name"": ""Anil"",
+    ""message"": ""I will be ten minutes late""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A007,test,g007,,explicit_command,en,actionable,"[""create_task""]",False,actionable,create_task,0.95,False,"{""task"": ""review the pull request"", ""date"": ""15 November 2026""}",True,True,,True,0.5,0.5,5.30842951700015,68,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_task"",
+  ""entities"": {
+    ""task"": ""review the pull request"",
+    ""date"": ""15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A008,test,g008,,explicit_command,en,actionable,"[""create_reminder""]",False,actionable,create_reminder,0.95,False,"{""time"": ""in half an hour"", ""action"": ""take the laundry out""}",True,True,,True,1.0,1.0,4.4297864469999695,65,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""time"": ""in half an hour"",
+    ""action"": ""take the laundry out""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A013,test,g013,,change_of_mind,en,actionable,"[""cancel_reminder""]",True,non_actionable,delete_reminder,0.95,False,"{""reminder_id"": ""1""}",True,False,bad_intent_enum,False,0.0,0.0,3.7579808610003056,54,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""delete_reminder"",
+  ""entities"": {
+    ""reminder_id"": ""1""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A015,test,g015,,implicit_multiturn,en,actionable,"[""reschedule_meeting""]",True,actionable,create_reminder,0.95,False,"{""date"": ""Thursday, 15 November 2026""}",True,True,,False,1.0,1.0,4.834751862000303,62,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Thursday, 15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A016,test,g016,,calendar_conflict,en,actionable,"[""reschedule_meeting""]",False,actionable,create_reminder,0.95,False,"{""time"": ""4 PM"", ""date"": ""Thursday"", ""event"": ""review""}",True,True,,False,1.0,0.6666666666666666,4.692085252999732,67,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""time"": ""4 PM"",
+    ""date"": ""Thursday"",
+    ""event"": ""review""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A017,test,g017,,multi_assignment,en,actionable,"[""cancel_meeting"", ""reschedule_meeting""]",True,actionable,cancel_reminder,0.95,False,"{""day"": ""Friday"", ""date"": ""15 November 2026"", ""action"": ""cancel""}",True,True,,False,0.0,0.0,5.638590792999821,73,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""cancel_reminder"",
+  ""entities"": {
+    ""day"": ""Friday"",
+    ""date"": ""15 November 2026"",
+    ""action"": ""cancel""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A018,test,g018,,multi_assignment,en,actionable,"[""create_reminder"", ""schedule_meeting""]",True,actionable,create_reminder,0.95,False,"{""reminder"": ""buy milk tonight"", ""call"": ""schedule a call with Kiran for Monday at 10 AM""}",True,True,,True,1.0,0.5,5.0140490409999074,73,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""reminder"": ""buy milk tonight"",
+    ""call"": ""schedule a call with Kiran for Monday at 10 AM""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A025,test,g021,,agreement_confirmation,en,actionable,"[""schedule_meeting"", ""confirm_meeting""]",True,non_actionable,none,0.95,False,{},True,True,,False,0.0,0.0,2.962310724999952,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A026,test,g022,,agreement_confirmation,en,actionable,"[""schedule_meeting"", ""confirm_meeting""]",True,actionable,create_reminder,0.95,False,"{""date"": ""2026-11-15"", ""time"": ""18:00"", ""event"": ""Dinner""}",True,True,,False,0.3333333333333333,0.3333333333333333,6.070344628999919,80,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""2026-11-15"",
+    ""time"": ""18:00"",
+    ""event"": ""Dinner""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A027,test,g023,,agreement_confirmation,en,actionable,"[""create_reminder""]",True,actionable,create_reminder,0.95,False,"{""date"": ""Friday, 15 November 2026"", ""time"": ""4:00 PM"", ""reminder_time"": ""1 hour before""}",True,True,,True,0.3333333333333333,0.3333333333333333,5.617321007999635,83,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Friday, 15 November 2026"",
+    ""time"": ""4:00 PM"",
+    ""reminder_time"": ""1 hour before""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A030,test,g026,P3,implicit_multiturn,en,actionable,"[""create_task""]",True,non_actionable,none,0.95,False,{},True,True,,False,0.0,0.0,3.222470687999703,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A031,test,g026,P3,negative,en,non_actionable,"[""none""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Wednesday noon, 15 November 2026"", ""action"": ""send report""}",True,True,,False,,,5.23768098499977,71,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Wednesday noon, 15 November 2026"",
+    ""action"": ""send report""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A032,test,g027,,urgent_action,en,actionable,"[""send_message""]",True,actionable,create_reminder,0.95,False,"{""date"": ""15 November 2026"", ""time"": ""now"", ""message"": ""the shipment is delayed""}",True,True,,False,0.5,0.3333333333333333,5.281472711999868,76,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""15 November 2026"",
+    ""time"": ""now"",
+    ""message"": ""the shipment is delayed""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A034,test,g029,P2,explicit_command,en,actionable,"[""schedule_meeting"", ""confirm_meeting""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Thursday, 15 November 2026"", ""time"": ""5 PM"", ""person"": ""Rahul""}",True,True,,False,1.0,1.0,6.194694414999958,79,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Thursday, 15 November 2026"",
+    ""time"": ""5 PM"",
+    ""person"": ""Rahul""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A035,test,g029,P2,explicit_command,en,actionable,"[""schedule_meeting"", ""confirm_meeting""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Thursday, 15 November 2026"", ""time"": ""5 PM"", ""meeting"": ""with Rahul""}",True,True,,False,1.0,1.0,5.3983789380004055,78,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Thursday, 15 November 2026"",
+    ""time"": ""5 PM"",
+    ""meeting"": ""with Rahul""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A036,test,g029,P2,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""Thursday, 15 November 2026""}",True,True,,False,,,4.850156937000065,62,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Thursday, 15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A037,test,g029,P2,no_action_mention,en,non_actionable,"[""none""]",False,actionable,create_reminder,0.95,False,"{""date"": ""15 November 2026""}",True,True,,False,,,4.118832705999921,59,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A038,test,g030,P4,correction_cancel_reschedule,en,actionable,"[""cancel_meeting""]",True,actionable,cancel_meeting,0.95,False,"{""name"": ""Rahul"", ""time"": ""11 AM"", ""date"": ""15 November 2026""}",True,True,,True,0.6666666666666666,0.6666666666666666,5.243689248999999,77,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""cancel_meeting"",
+  ""entities"": {
+    ""name"": ""Rahul"",
+    ""time"": ""11 AM"",
+    ""date"": ""15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A039,test,g030,P4,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,cancel_meeting,0.95,False,"{""name"": ""Rahul"", ""time"": ""11 AM"", ""date"": ""15 November 2026""}",True,True,,False,,,5.7218527670002,77,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""cancel_meeting"",
+  ""entities"": {
+    ""name"": ""Rahul"",
+    ""time"": ""11 AM"",
+    ""date"": ""15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A040,test,g030,P4,no_action_mention,en,non_actionable,"[""none""]",False,actionable,create_reminder,0.95,False,"{""date"": ""2026-11-16"", ""time"": ""11:00"", ""meeting"": ""with Rahul"", ""emotion"": ""dread""}",True,True,,False,,,6.011113057999864,88,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""2026-11-16"",
+    ""time"": ""11:00"",
+    ""meeting"": ""with Rahul"",
+    ""emotion"": ""dread""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A043,test,g031,P8,long_context,en,actionable,"[""schedule_meeting"", ""confirm_meeting""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Wednesday, 15 November 2026"", ""time"": ""2 PM"", ""event"": ""review the budget""}",True,True,,False,0.6666666666666666,0.6666666666666666,6.0056133910002245,79,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Wednesday, 15 November 2026"",
+    ""time"": ""2 PM"",
+    ""event"": ""review the budget""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A044,test,g031,P8,long_context,en,non_actionable,"[""none""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Wednesday, 15 November 2026"", ""time"": ""2 PM"", ""action"": ""review the budget""}",True,True,,False,,,5.483534437999879,79,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Wednesday, 15 November 2026"",
+    ""time"": ""2 PM"",
+    ""action"": ""review the budget""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A045,test,g031,P8,long_context,en,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""2026-11-15"", ""time"": ""14:00"", ""event"": ""review the budget""}",True,True,,False,,,6.133245134999925,81,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""2026-11-15"",
+    ""time"": ""14:00"",
+    ""event"": ""review the budget""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A049,test,g035,,no_action_mention,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.8878055549998862,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A050,test,g036,,no_action_mention,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.918516415999875,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A051,test,g037,,no_action_mention,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,3.272763045999909,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A052,test,g038,,negative,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,3.2359719599999153,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A053,test,g039,,negative,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.907460798000102,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A054,test,g040,,negative,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.8964500859997315,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A055,test,g041,,negative,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,3.218690087000141,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A056,test,g042,,negative,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,3.0495704029999615,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A060,test,g046,,negative,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.8549243450001995,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A061,test,g047,,no_action_mention,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.8804284140001073,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A062,test,g048,,no_action_mention,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,3.2158389269998224,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A063,test,g049,,qa_request,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,3.2439380370001345,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A064,test,g050,,qa_request,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.968272533000345,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A065,test,g051,,qa_request,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.892872795999665,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A066,test,g052,,qa_request,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,3.1536372049999954,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A067,test,g053,,negative,en,non_actionable,"[""none""]",False,ambiguous,unknown,0.75,True,{},True,True,,False,,,3.1287801299999956,40,"{
+  ""actionability"": ""ambiguous"",
+  ""intent"": ""unknown"",
+  ""entities"": {},
+  ""confidence"": 0.75,
+  ""requires_confirmation"": true
+}"
+A070,test,g056,,negative,en,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.83386502500025,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A073,test,g059,,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""meeting"": ""call with Neha at 2 and a review with Rahul at 4""}",True,True,,False,,,4.3873282770000515,66,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""meeting"": ""call with Neha at 2 and a review with Rahul at 4""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A074,test,g060,,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,schedule_meeting,0.95,True,"{""name"": ""Rahul""}",True,True,,False,,,4.317408146000162,54,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""schedule_meeting"",
+  ""entities"": {
+    ""name"": ""Rahul""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": true
+}"
+A075,test,g061,,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""15 November 2026"", ""action"": ""call him""}",True,True,,False,,,4.591674940999837,67,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""15 November 2026"",
+    ""action"": ""call him""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A076,test,g062,,ambiguous,en,ambiguous,"[""unknown""]",True,non_actionable,none,0.95,False,{},True,True,,False,,,2.9199392139998963,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A078,test,g064,,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""Monday, 15 November 2026"", ""time"": ""afternoon"", ""contact"": ""Kiran""}",True,True,,False,,,5.918311053000252,78,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Monday, 15 November 2026"",
+    ""time"": ""afternoon"",
+    ""contact"": ""Kiran""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A079,test,g065,,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""16 November 2026"", ""recipient"": ""Anil"", ""message"": ""Message Anil about tomorrow.""}",True,True,,False,,,5.246834190999834,78,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""16 November 2026"",
+    ""recipient"": ""Anil"",
+    ""message"": ""Message Anil about tomorrow.""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A080,test,g066,,ambiguous,en,ambiguous,"[""unknown""]",True,non_actionable,none,0.95,False,{},True,True,,False,,,2.921669391999785,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A081,test,g067,,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""Thursday, 15 November 2026"", ""time"": ""4"", ""event"": ""review the project""}",True,True,,False,,,5.865417109000191,78,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Thursday, 15 November 2026"",
+    ""time"": ""4"",
+    ""event"": ""review the project""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A083,test,g069,,ambiguous,en,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""time"": ""4 PM"", ""date"": ""Thursday"", ""day"": ""15 November 2026""}",True,True,,False,,,4.983435908000047,74,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""time"": ""4 PM"",
+    ""date"": ""Thursday"",
+    ""day"": ""15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A084,test,g070,,ambiguous,en,ambiguous,"[""unknown""]",True,ambiguous,unknown,0.75,True,{},True,True,,True,,,3.1416768660001253,40,"{
+  ""actionability"": ""ambiguous"",
+  ""intent"": ""unknown"",
+  ""entities"": {},
+  ""confidence"": 0.75,
+  ""requires_confirmation"": true
+}"
+A085,test,g071,,safety_high_risk,en,ambiguous,"[""unknown""]",True,actionable,cancel_reminders,0.95,False,"{""date"": ""2026-11-16""}",True,False,bad_intent_enum,False,,,4.355879479000123,61,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""cancel_reminders"",
+  ""entities"": {
+    ""date"": ""2026-11-16""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A086,test,g072,,explicit_command,hinglish,actionable,"[""create_reminder""]",False,actionable,create_reminder,0.95,False,"{""time"": ""10:00"", ""date"": ""15 November 2026"", ""contact"": ""Rahul""}",True,True,,True,0.6666666666666666,0.6666666666666666,5.312027572999796,79,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""time"": ""10:00"",
+    ""date"": ""15 November 2026"",
+    ""contact"": ""Rahul""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A089,test,g075,,correction_cancel_reschedule,hinglish,actionable,"[""cancel_meeting""]",True,actionable,cancel_meeting,0.95,False,"{""name"": ""Rahul"", ""time"": ""11 baje"", ""date"": ""15 November 2026""}",True,True,,True,1.0,0.6666666666666666,5.903429307999886,78,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""cancel_meeting"",
+  ""entities"": {
+    ""name"": ""Rahul"",
+    ""time"": ""11 baje"",
+    ""date"": ""15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A091,test,g077,,explicit_command,hinglish,actionable,"[""create_reminder""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Monday, 16 November 2026"", ""action"": ""invoice""}",True,True,,True,1.0,1.0,4.628668104999633,69,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Monday, 16 November 2026"",
+    ""action"": ""invoice""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A092,test,g078,,explicit_command,hinglish,actionable,"[""create_task""]",False,actionable,create_reminder,0.95,False,"{""date"": ""15 November 2026"", ""time"": ""shaam"", ""task"": ""client ka proposal review karna""}",True,True,,False,1.0,0.6666666666666666,5.9316311329998825,79,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""15 November 2026"",
+    ""time"": ""shaam"",
+    ""task"": ""client ka proposal review karna""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A094,test,g080,,agreement_confirmation,hinglish,actionable,"[""schedule_meeting"", ""confirm_meeting""]",True,actionable,create_reminder,0.95,False,"{""time"": ""Tuesday 7 baje"", ""date"": ""2026-11-15""}",True,True,,False,0.6666666666666666,0.5,4.771121800999936,72,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""time"": ""Tuesday 7 baje"",
+    ""date"": ""2026-11-15""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A095,test,g081,,implicit_multiturn,hinglish,actionable,"[""create_task""]",True,non_actionable,none,0.95,False,{},True,True,,False,0.0,0.0,2.9719969370003128,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A097,test,g083,P5,agreement_confirmation,hinglish,actionable,"[""schedule_meeting"", ""confirm_meeting""]",True,actionable,create_reminder,0.95,False,"{""date"": ""Thursday, 15 November 2026"", ""time"": ""4:00"", ""event"": ""project review""}",True,True,,False,1.0,1.0,6.1080916330001855,80,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Thursday, 15 November 2026"",
+    ""time"": ""4:00"",
+    ""event"": ""project review""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A098,test,g083,P5,negative,hinglish,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.885734516999946,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A099,test,g083,P5,ambiguous,hinglish,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""Thursday, 15 November 2026"", ""time"": ""4:00"", ""event"": ""project review""}",True,True,,False,,,5.730387602000064,80,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Thursday, 15 November 2026"",
+    ""time"": ""4:00"",
+    ""event"": ""project review""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A100,test,g083,P5,negative,hinglish,non_actionable,"[""none""]",False,actionable,create_reminder,0.95,False,"{""date"": ""Thursday, 15 November 2026"", ""time"": ""4:00"", ""event"": ""project review""}",True,True,,False,,,5.802139871000236,80,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""Thursday, 15 November 2026"",
+    ""time"": ""4:00"",
+    ""event"": ""project review""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A103,test,g084,,no_action_mention,hinglish,non_actionable,"[""none""]",False,ambiguous,unknown,0.65,True,{},True,True,,False,,,2.7055600429998776,40,"{
+  ""actionability"": ""ambiguous"",
+  ""intent"": ""unknown"",
+  ""entities"": {},
+  ""confidence"": 0.65,
+  ""requires_confirmation"": true
+}"
+A105,test,g086,,no_action_mention,hinglish,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.9060498359999656,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A106,test,g087,,no_action_mention,hinglish,non_actionable,"[""none""]",False,ambiguous,unknown,0.75,True,{},True,True,,False,,,3.315981900999759,40,"{
+  ""actionability"": ""ambiguous"",
+  ""intent"": ""unknown"",
+  ""entities"": {},
+  ""confidence"": 0.75,
+  ""requires_confirmation"": true
+}"
+A107,test,g088,,no_action_mention,hinglish,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.918084456000088,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A108,test,g089,,negative,hinglish,non_actionable,"[""none""]",False,ambiguous,unknown,0.75,True,{},True,True,,False,,,2.7322096700004295,40,"{
+  ""actionability"": ""ambiguous"",
+  ""intent"": ""unknown"",
+  ""entities"": {},
+  ""confidence"": 0.75,
+  ""requires_confirmation"": true
+}"
+A111,test,g092,,negative,hinglish,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.839217249000285,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A112,test,g093,,no_action_mention,hinglish,non_actionable,"[""none""]",False,actionable,create_reminder,0.95,False,"{""date"": ""15 November 2026"", ""time"": ""11 baje"", ""event"": ""Client meeting""}",True,True,,False,,,5.828795711000112,77,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""15 November 2026"",
+    ""time"": ""11 baje"",
+    ""event"": ""Client meeting""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A113,test,g094,,no_action_mention,hinglish,non_actionable,"[""none""]",False,ambiguous,unknown,0.75,True,{},True,True,,False,,,2.6851164230001814,40,"{
+  ""actionability"": ""ambiguous"",
+  ""intent"": ""unknown"",
+  ""entities"": {},
+  ""confidence"": 0.75,
+  ""requires_confirmation"": true
+}"
+A115,test,g096,,ambiguous,hinglish,ambiguous,"[""unknown""]",True,actionable,cancel_meeting,0.95,False,{},True,True,,False,,,2.973731755999779,43,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""cancel_meeting"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A117,test,g098,,ambiguous,hinglish,ambiguous,"[""unknown""]",True,non_actionable,unknown,0.85,True,{},True,True,,True,,,3.506884350999826,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""unknown"",
+  ""entities"": {},
+  ""confidence"": 0.85,
+  ""requires_confirmation"": true
+}"
+A118,test,g099,,ambiguous,hinglish,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""15 November 2026"", ""time"": ""kal"", ""action"": ""call""}",True,True,,False,,,5.02083840899968,73,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""15 November 2026"",
+    ""time"": ""kal"",
+    ""action"": ""call""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A119,test,g100,,ambiguous,hinglish,ambiguous,"[""unknown""]",True,actionable,create_reminder,0.95,False,"{""date"": ""15 November 2026"", ""time"": ""today"", ""participants"": [""Anil""]}",True,True,,False,,,5.020409508999819,74,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""date"": ""15 November 2026"",
+    ""time"": ""today"",
+    ""participants"": [""Anil""]
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A120,test,g101,,explicit_command,hindi,actionable,"[""create_reminder""]",False,actionable,create_reminder,0.95,False,"{""time"": ""9:00 AM"", ""date"": ""16 November 2026"", ""action"": ""call doctor""}",True,True,,True,0.3333333333333333,0.3333333333333333,5.891599486999894,78,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""time"": ""9:00 AM"",
+    ""date"": ""16 November 2026"",
+    ""action"": ""call doctor""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A123,test,g104,P6,agreement_confirmation,hindi,actionable,"[""schedule_meeting"", ""confirm_meeting""]",True,actionable,create_reminder,0.95,False,"{""time"": ""4:00 PM"", ""day"": ""Thursday"", ""date"": ""15 November 2026""}",True,True,,False,0.5,0.3333333333333333,5.225729467999827,77,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""create_reminder"",
+  ""entities"": {
+    ""time"": ""4:00 PM"",
+    ""day"": ""Thursday"",
+    ""date"": ""15 November 2026""
+  },
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A124,test,g104,P6,negative,hindi,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,3.3525099210000917,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A125,test,g104,P6,ambiguous,hindi,ambiguous,"[""unknown""]",True,non_actionable,none,0.95,False,{},True,True,,False,,,3.0995865910003886,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A126,test,g105,,no_action_mention,hindi,non_actionable,"[""none""]",False,non_actionable,none,0.95,False,{},True,True,,True,,,2.8850448990001496,42,"{
+  ""actionability"": ""non_actionable"",
+  ""intent"": ""none"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
+A127,test,g106,,no_action_mention,hindi,non_actionable,"[""none""]",False,ambiguous,unknown,0.75,True,{},True,True,,False,,,2.779329826000321,40,"{
+  ""actionability"": ""ambiguous"",
+  ""intent"": ""unknown"",
+  ""entities"": {},
+  ""confidence"": 0.75,
+  ""requires_confirmation"": true
+}"
+A129,test,g108,,ambiguous,hindi,ambiguous,"[""unknown""]",True,actionable,cancel_meeting,0.95,False,{},True,True,,False,,,3.4174019719998796,43,"{
+  ""actionability"": ""actionable"",
+  ""intent"": ""cancel_meeting"",
+  ""entities"": {},
+  ""confidence"": 0.95,
+  ""requires_confirmation"": false
+}"
