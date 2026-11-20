@@ -1,7 +1,8 @@
 FutureHuman — Conversational Action Intelligence
 This repository contains the FutureHuman evaluation workspace: the testing suite, unified evaluation notebook, human-review file, and outputs from an evaluation run using Qwen3-4B.
 Repository contents
-FutureHuman-Action-Intelligence/
+
+FutureHuman/
 │
 ├── README.md
 ├── .gitignore
